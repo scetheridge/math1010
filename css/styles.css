@@ -1,4 +1,13 @@
-    html {
+.solution{
+    list-style-type: none;
+}
+ol li ol{
+    
+    list-style-type:lower-alpha;
+    
+}
+
+/* html {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
@@ -101,13 +110,10 @@ table td {
           margin-left: auto;
           margin-right: auto;
           max-width: 60%;
-      }
-      .solution{
-        list-style-type: none;
-    }
-    @media only screen and (min-width: 775px) {
+      } */
+
+    /* @media only screen and (min-width: 775px) {
         html {
-            /* font-size: 16px; */
         }
         div.container {
             padding: 1em 7em;
@@ -135,4 +141,4 @@ table td {
         li ol li {
             margin-left: 2.2em;
         }
-    }
+    } */
