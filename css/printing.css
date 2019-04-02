@@ -1,0 +1,23 @@
+
+@media print {
+    
+/* html{
+  font-size: 14px;
+} */
+/* div.container {
+    padding-right: .8in;
+} */
+.problem{
+    page-break-inside: avoid;
+}
+  .solution, .answer, nav{
+      visibility: hidden;
+  }
+  /* .unit, .section{
+      page-break-after: always;
+  } */
+  /* li {
+    line-height: 1.6em;
+    margin-left: .75em;
+} */
+}
