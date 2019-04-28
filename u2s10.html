@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Math 1010, pscc, pellissippi state, pscc">
+  <meta name="theme-color" content="#001cb8" />
+  <title>Math 1010</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <link rel="stylesheet" href="./css/printing.css?id=2" media="print">
+
+  <style>
+    /* .toc li {
+      list-style-type: none;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="banner">
+      <h1>Math 1010</h1>
+      <hr>
+    </header>
+
+    <!-- <nav>
+      <ul class="toc">
+        <li>Unit 1
+          <ul>
+            <li>
+              Section 1
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav> -->
+
+
+    <main>
+      <h2> Statistics Unit</h2>
+  
+
+      <h3>2.10 The Normal Distribution</h3>
+
+    <p>If we took a large sample of men’s and women’s heights and graphed the frequency of the heights, we’d see something like this:</p>
+
+    <img src="images/u2s10intro1.png" alt="The graph is a histogram of the frequency of heights for women and for men in a sample. The x-axis represents the height in inches and the y-axis represents the frequency of each height. The graph for the women is normally distributed between 55 inches tall and 75 inches tall. The mean height for the women is 65 inches. The men's graph is normally distributed between 55 inches and 85 inches tall. The mean height is about 72 inches. While the graph is a histogram, there are curves drawn around each to show that there is a normal distribution. ">
+
+    <p>When we remove the histograms, we see the bell-shaped normal distributions.</p>
+
+    <img src="images/u2s10intro2.png" alt="The graph is identical the the previous graph with the histogram bars removed. Only the cureves are remaining to show the normal distribution of the heights of a sample of men and women.">
+
+    <ol>
+        <li>What is the mean women’s height?</li>
+        <p class="solution">65 inches</p>
+        <li>What is the median women’s height?</li>
+        <p class="solution">65 inches</p>
+        <li>What is the mode of the women’s heights?</li>
+        <p class="solution">65 inches</p>
+        <li>Variation is a measure of how much the data values are spread out.</li>
+        <p>Which has greater variation:  women’s heights or men’s heights?</p>
+        <p class="solution">The graph of the men's heights has greater variation</p>
+    </ol>
+
+    <p>Bell-shaped: most data values clustered near the mean, well-defined single peak</p>
+    <p>Symmetric:  data values spread evenly around the mean, larger deviations from the mean become increasingly rare, tapering tails of the distribution.</p>
+    <p>Adult heights, scores on standardized tests, sports statistics, machine-made products</p>
+
+    <img src="images/u2s10intro3.png" alt="There are three graphs in the picture. All three graphs are of the same bell-shaped curve, a normal distribution curve. The x-axis shows the mean in the middle, the highest point of the graph. Three standard deviations to the left and to the right are also marked on the graph. So, the x-axis reads, -3, -2, -1, mean, +1, +2, +3. The first graph is shaded below the curve between -1 and +1 to show that 68% of all data in a normal distribution will be between -1 and +1 standard deviations from the mean. The second graph is shaded below the curve from -2 to +2 to show that 95% of the data in a normal distribution is between -2 and +2 standard deviations from the mean. The third graph is shaded below the curve from -3 to +3 to show that 99.7% of the data in a nomral distribution is between -3 and +3 standard deviations from the mean.">
+
+    <p><img src="images/u2s10intro4.png" alt="The graph is a normal distribution curve very similar to the previous graphs. On this graph, percentages of data are shown between each standard deviation mark on the x-axis. The percentage between -3 and -2 is 2.35%. The percentage between -2 and -1 is 13.5%. The percentage between -1 and the mean is 34%. The percentage between the mean and +1 is 34%. The percentage between +1 and +2 is 13.5%. The percentage between +2 and +3 is 2.35%. These percentages represent the percent of data that lies between each of the standard deviations. For example, 13.5% of all data in a normal distribution are between -2 and -1 standard deviations from the mean."></p>
+
+    <ol>
+<li>The amount of coca-cola in a two-liter bottle is normally distributed with a mean of 2.05 liters and a standard deviation of 0.1 liters.  (0.1 liters is approximately 3 ounces or 0.4 cups)
+
+<p>Sketch a distribution curve and label.</p>
+<p class="solution"><img src="images/u2s10p1.png" alt="The graph is a bell-shaped curve. The x-axis is labeled with the mean in the middle, the highest point of the curve. Three standard deviations to the left and three standard deviations to the right are labeled on the x-axis. So, the x-axis contains 1.75, 1.85, 1.95, 2.05, 2.15, 2.25, and 2.35."></p>
+<ol>
+<li>What percentage of two-liter Coca-Cola bottles contain between 1.95 and 2.15 liters?</li>
+<p class="solution">68%</p>
+<li>What percentage of two-liter Coca-Cola bottles contain more than 2.05 liters?</li>
+<p class="solution">50%</p>
+<li>Find the range of liters that approximately 95% of all Coca-Cola bottles contain?</li>
+<p class="solution">1.85 - 2.25 liters</p>
+<li>What percentage of two-liter bottles contain between 1.85 and 2.15 liters?</li>
+<p class="solution">81.5%</p>
+<li>What percentage of two-liter bottles contain less than 1.85 liters?</li>
+<p class="solution">2.5%</p>
+<li>In a sample of 10,000 two-liter Coca-Cola bottles, how many would be expected to contain more than 2.35 liters?  (This is almost 1.5 cups above the advertised 2 liters)</li>
+<p class="solution">.0015*10,000 = 15 bottles</p>
+
+</ol>
+
+</li>
+
+<li>The average gas mileage for a hybrid Honda Civic is normally distributed with a mean of 44 miles per gallon and a standard deviation of 5 mpg.
+<p>Sketch a distribution curve and label.</p>
+<p class="solution"><img src="images/u2s10p2.png" alt="The graph is a bell-shaped curve. The x-axis is labeled with the mean in the middle, the highest point of the curve. Three standard deviations to the left and three standard deviations to the right are labeled on the x-axis. So, the x-axis contains 29, 34, 39, 44, 49, 54, and 59."></p>
+
+<ol>
+<li>What percentage of Honda Civic hybrids get better than an average of 49 miles per gallon?</li>
+<p class="solution">16%</p>
+<li>What percentage of Civic hybrids get worse than an average of 39 miles per gallon?</li>
+<p class="solution">16%</p>
+<li>What percentage of Civic hybrids get between 29 and 39 miles per gallon?</li>
+<p class="solution">15.85%</p>
+<li>Find the range in miles per gallon for 99.7% of Civic Hybrids.</li>
+<p class="solution">29 - 59 mpg</p>
+<li>In a sample of 500 Civic hybrids, how many would be expected to get between 39 and 49 miles per gallon on average?</li>
+<p class="solution">0.68 * 500 = 340 Honda Civic Hybrids</p>
+
+<li>In a sample of 500 Civic hybrids, how many would be expected to get better than an average of 59 miles per gallon? </li>
+<p class="solution">0.0015 * 500 = 0.75</p>
+<p class="solution">Less than one Honda Civic Hybrid per 500 Civics will get between 39 and 49 mpg.</p>
+
+</ol>
+
+</li>
+
+    </ol>
+
+    </main>
+
+
+
+    <!--end of container div -->
+  </div>
+
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
