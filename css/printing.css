@@ -13,9 +13,9 @@ html{
 .solution {
     color: #b30000 !important;
 }
-  /* .solution, .answer, nav{
+  .solution, .answer, nav{
       visibility: hidden;
-  } */
+  }
   /* .unit, .section{
       page-break-after: always;
   } */
